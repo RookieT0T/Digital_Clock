@@ -5,7 +5,7 @@ This is a digital clock design, which supports the display of two different time
 The design integrates the designs of ripple carry adders and carry-lookahead adders.
 
 ## 8-Segment Display Logic ##
-The 8-segment displays of the Altera FPGA board (EP4CE10F17C8 chip in Cyclone Ⅳ Series) are designed based on dynamic scannings. To show different numbers on the different displays, logic of showing numbers on a 8-segment display 1ms per time is designed.
+The 8-segment displays of the Altera FPGA board with EP4CE10F17C8 chip in Cyclone Ⅳ Series are designed based on dynamic scanning methodology. To show different numbers on the different displays simultaneously, the logic of showing numbers on a 8-segment display 1ms per time is designed.
 
 ## 74HC595 Chip Drive ##
 The design
