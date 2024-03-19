@@ -7,5 +7,5 @@ The design integrates the designs of ripple carry adders and carry-lookahead add
 ## 8-Segment Display Logic ##
 The 8-segment displays of the Altera FPGA board with EP4CE10F17C8 chip in Cyclone IV Series are designed based on dynamic scanning method. To show different digits on the different displays simultaneously, the logic of activating displays in turns, 1ms at a time is designed. 
 
-## 74HC595 Chip Drive ##
+## 74HC595 Chip Driver ##
 The correct logic of setting DS, OE, STCP, and SHCP signals of the chip is designed, which achieves the linear input and parallel output function of the chip. Thus, the digits of the time can be correctly shown on the FPGA board.
